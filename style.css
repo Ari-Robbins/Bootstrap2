@@ -1,4 +1,33 @@
 html {
   height: 100%;
   width: 100%;
+  background-color: #95d090;
+} 
+.petTitle {
+color: #8888ec;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  transition: 0.2s ease;
+  display: inline-block
+}
+.petTitle:hover{
+  font-size: 55px;
+}
+.grid-item{
+  color: #8888ec;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Overpass", sans-serif;
+  transition: 0.2s ease;
+  display: inline-block
+}
+.grid-item:hover{
+  color: #6161e5;
+}
+.petPic{
+  transition: 1s linear;
+}
+.petPic:hover{
+  size: 2000px
+
 }
